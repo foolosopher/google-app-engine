@@ -3,9 +3,6 @@ api_version: '1.0'
 env: flexible
 threadsafe: true
 automatic_scaling:
-  cool_down_period: 120s
   min_num_instances: 1
   max_num_instances: 1
-  cpu_utilization:
-    target_utilization: 0.5
 network: {}
